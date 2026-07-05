@@ -80,7 +80,7 @@
 nav ul {
   position: relative;
   bottom: 30px;
-  right: 100px;
+  right: 5%;
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
@@ -134,9 +134,9 @@ div.picture img {
 div.picture span {
   font-family: 'Antro';
   position: relative;
-  right: 200px;
+  right: 13%;
   bottom: 23px;
-  font-size: 225%;
+  font-size: 100%;
 }
 
 div.pageBody {

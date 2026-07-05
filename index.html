@@ -1,107 +1,241 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
+
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, iniutial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link class="icon" rel="icon" href="picture/obsid-icon.png">
 		<title>
-			Test My page
+			おぶしの隠れ家
 		</title>
-		<link rel="stylesheet" type="text/css" href="style.css" media="all">
 	</head>
+
 	<body>
-		<div id="top" class="pageTitle">
-
-			<img class="flex" id="titleIcon" src="./picture/154.png" alt="アイコンが読み込めませんでした。">
-			<div class="background">
-				<h1>obsid&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;初老</h1>
-			</div>
-
-			<h1 id="title">
-				<span class="txt">おぶしの掲示板</span>
-			</h1>
-			<h6 id="subTitle">
-				obsid's message board.
-			</h6>
-			<p style="font-size: 50%;" class="about">
-				<span class="pageTitle txt">
-					おぶしがなんか適当に呟きます。
-					<br>
-					要するに個人経営のブログです。
-					<br>
-				</span>
-				<br>
-				<a class="txt" style="color:#FFFFFF" target=_blank href="https://note.com/obsid_midage">おぶしのノート垢</a>
-			</p>
-			<div class="mokuji txt">
-				<h3>
-					目次
-				</h3>
-				<ol>
-					<li>
-						<a href=#title style="color: #000000;">ページタイトル</a>
-					</li>
-					<li>
-						<a href=#posts style="color: #000000;">新着記事</a>
-					</li>
-				</ol>
-			</div>
-			<p class="yukkuri txt">
-				ゆっくりしていってね！！！
-			</p>
+		<div class="picture">
+			<img src="picture/obsid-icon.png" alt="Φ">
+			<span>OBSID</span>
 		</div>
+		<nav>
+			<ul>
+				<li class="Home">
+					<span class="before">H</span>
+					<br>
+					<span class="after">HOME</span>
+				</li>
+				<li class="About" data-hover="About">
+					<span class="before">A</span>
+					<br>
+					<span class="after">ABOUT</span>
+				</li>
+				<li class="Contact">
+					<span class="before">C</span>
+					<br>
+					<span class="after">CONTACT</span>
+				</li>
+				<li class="Blog">
+					<span class="before">B</span>
+					<br>
+					<span class="after">BLOG</span>
+				</li>
+				<li class="Works">
+					<span class="before">W</span>
+					<br>
+					<span class="after">WORKS</span>
+				</li>
+			</ul>
+		</nav>
+		<div class="pageBody">
+			<div class="Home">
+				<h1>
+					<span class="pageHeader"><span class="section">-</span>Home</span>
+				</h1>
+				<div class="MainBody">
+					<h2>
+						<span class="siteTitle">おぶしの隠れ家</span>
+					</h2>
 
-		<br>
-		<img class="yohaku"
-		     src="./picture/winux.png"
-		     alt="画像が読み込めませんでした...."
-		>
-		<br>
-		<br>
-		<div id="posts">
-			<div class="latestDiv">
+					<span class="aboutSite">About This Site</span>
+					<br>
+					<p class="aboutSite">
+						おぶしとか言う初老がブイブイ言ってる隠れ家的なところです。
+						<br>
+						HTMLの練習と同時に自己紹介兼ブログ?ページを作ってみました。
+						<br>
+						<br>
+						<br>
+					</p>
+				</div>
+			</div>
+			<div class="About">
+				<h1>
+					<span class="pageHeader"><span class="section">-</span>About</span>
+				</h1>
+				<div class="MainBody">
+					<h2>
+						<span class="siteTitle">おぶしについて</span>
+					</h2>
 
-				<div class="subHead">
-					<h1 class="latest">
-						新着記事 Latest Posts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span class="aboutSite">How About obsid</span>
+					<br>
+					<p class="aboutSite">
+						名前 - おぶし
+						<br>
+						<br>
+						年齢(2026年7月時点) - 18歳(自認32歳)
+						<br>
+						<br>
+					</p>
+					<details class="aboutSite">
+						<summary>これまでの歴史(長いので省略表示)</summary>
+						<p>
+							<br>
+							2008年5月30日 - 生
+							<br>
+							<br>
+							2015年 - 地元の公立初等教育学校へ入学
+							<br>
+							<br>
+							2019年~2020年 - ガイジが医学的に露呈する。
+							<br>
+							<br>
+							2021年 - 地元の中等教育学校へ入学する。
+							<br>
+							<br>
+							2022年 - プログラミングに触れ、いよいよ高専入学を決意する。
+							<br>
+							<br>
+							2023年 - 高専ロボコン出場をぼんやりと目標にしながらビートボックスにハマる。
+							<br>
+							<br>
+							2024年初め - 某地方の某都道府県の某国立工業高専に第一志望で合格
+							<br>
+							併願していた私立高等学校の特進クラスを蹴る。
+							<br>
+							<br>
+							2024年4月 - 高専入学、ロボコン部入部
+							<br>
+							<br>
+							2024年5月~12月 - 人間関係に悩まされながらも楽しい学校生活、ロボコン部員ライフを送る。
+							<br>
+							<br>
+							2025年2月~3月 - ロボット制御に失敗し、次年度では絶対にロボットを制御し、<br>同期の他高専生とたくさん技術交流すると誓う。
+							<br>
+							<br>
+							2025年4月~8月 - 高専ロボコンシーズンで先輩のカスっぷりが露呈し、タイ研修で帰国直前に空港でブチ切れる。
+							<br>
+							<br>
+							2025年9月~10月 - 高専ロボコン某地方地区大会にて満足の行く結果を残せた。
+							<br>
+							<br>
+							2025年12月 - 人生初のロボコンという労働による精神的疲労を経験し、平日5日間ツボりまくる。
+							<br>
+							<br>
+							2026年3月 - こうろぼに参加し、こうろぼ大賞(大会内最優秀競技要件達成賞)を受賞
+							<br>
+							<br>
+							2026年4月~ - 3年の18歳になり、高専ライフ満喫中。
+						</p>
+					</details>
+					<p class="aboutSite">
+						好きなこと - 回路設計、プログラミング、マイコン制御、映像制作、音楽鑑賞、マイクラ etc....
+						<br>
+						<br>
+						好きなキャラクター、人物 - ブルアカの子たち、猫又おかゆ、しぐれうい、映像作家多数、Silentroom etc...
+						<br>
+						<br>
+						自分をよく表すと思うもの - 呪い、理不尽、破壊、悪魔、電気、波形、I/O、おぶし etc....
+						<br>
+						<br>
+						一言 - おぶし。
+						<br>
+						<br>
+						あとがき - 何しようかね、検討も付きません。<br>
+						18の初老です。
+						<br>
+						ゆっくりしていってね！！
+						<br>
+						<br>
+						<br>
+					</p>
+				</div>
+				<div class="Contact">
+					<h1>
+						<span class="pageHeader"><span class="section">-</span>Contact</span>
 					</h1>
+					<div class="MainBody">
+						<h2>
+							<span class="siteTitle">連絡先/ソーシャル/活動場所</span>
+						</h2>
+						<span class="aboutSite">Contact to obsid/Social/Working place</span>
+						<br>
+						<p class="aboutSite">
+							Address - <code>**No data shared**</code>
+							<br>
+							<br>
+							Discord server - <code>**No data shared**</code>
+							<br>
+							<br>
+							Instagram - <code>**No data shared**</code>
+							<br>
+							<br>
+							X(Twitter) - <code>**No data shared**</code>
+							<br>
+							<br>
+							<br>
+						</p>
+					</div>
 				</div>
-				<div class="background2">
-					<h1>mid-age</h1>
+			</div>
+			<div class="Blog">
+				<h1>
+					<span class="pageHeader"><span class="section">-</span>Blog</span>
+				</h1>
+				<div class="MainBody">
+					<h2>
+						<span class="siteTitle">ブログ</span>
+					</h2>
+
+					<span class="aboutSite">obsid's Blog</span>
+					<br>
+					<p class="aboutSite">
+						Comming Soon....
+					</p>
 				</div>
 			</div>
-			<br>
-			<div class="clips" id="linkToLatest1">
+			<div class="Works">
 				<h1>
-					最新記事
+					<span class="pageHeader"><span class="section">-</span>Works</span>
 				</h1>
-				<img src="./test.jpeg" alt="ここに画像が表示される">
-				<h6>投稿日時: YYYY/MM/DD</h6>
+				<div class="MainBody">
+					<h2>
+						<span class="siteTitle">これまでの映像作品</span>
+					</h2>
+
+					<span class="aboutSite">Works made by obsid</span>
+					<br>
+					<p class="aboutSite">
+						comming soon ....
+					</p>
+				</div>
 			</div>
-			<br>
-			<div class="clips" id="linkToLatest2">
-				<h1>
-					準最新記事
-				</h1>
-				<img src="./test.jpeg" alt="ここに画像が表示される">
-				<h6>投稿日時: YYYY/MM/DD</h6>
-			</div>
-			<br>
-			<div class="clips" id="linkToLatest3">
-				<h1>
-					準々最新記事
-				</h1>
-				<img src="./test.jpeg" alt="ここに画像が表示される">
-				<h6>投稿日時: YYYY/MM/DD</h6>
-			</div>
-			<br>
-			<div class="clips" id="linkToLatest4">
-				<h1>
-					準々々最新記事
-				</h1>
-				<img src="./test.jpeg" alt="ここに画像が表示される">
-				<h6>投稿日時: YYYY/MM/DD</h6>
-			</div>
+		</div>
+		<div class="Credits">
+			<span class="credits" style="font-family: 'Antro';"><u>Credits</u></span>
+			<hr style="margin-right: 10%;">
+			<h1>
+				Web Site
+			</h1>
+			<p>
+				obsid
+			</p>
+			<h1>
+				Logo
+			</h1>
+			<p>
+				obsid
+			</p>
 		</div>
 	</body>
 </html>

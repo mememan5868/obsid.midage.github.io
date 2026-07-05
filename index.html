@@ -19,27 +19,27 @@
 		</div>
 		<nav>
 			<ul>
-				<li class="Home">
+				<li class="Home" id="HomeButton" onclick="gotoHome()">
 					<span class="before">H</span>
 					<br>
 					<span class="after">HOME</span>
 				</li>
-				<li class="About" data-hover="About">
+				<li class="About" id="AboutButton" onclick="gotoAbout()">
 					<span class="before">A</span>
 					<br>
 					<span class="after">ABOUT</span>
 				</li>
-				<li class="Contact">
+				<li class="Contact" id="ContactButton" onclick="gotoContact()">
 					<span class="before">C</span>
 					<br>
 					<span class="after">CONTACT</span>
 				</li>
-				<li class="Blog">
+				<li class="Blog" id="BlogButton" onclick="gotoBlog()">
 					<span class="before">B</span>
 					<br>
 					<span class="after">BLOG</span>
 				</li>
-				<li class="Works">
+				<li class="Works" id="WorksButton" onclick="gotoWorks()">
 					<span class="before">W</span>
 					<br>
 					<span class="after">WORKS</span>
@@ -47,7 +47,7 @@
 			</ul>
 		</nav>
 		<div class="pageBody">
-			<div class="Home">
+			<div class="Home" id="Home">
 				<h1>
 					<span class="pageHeader"><span class="section">-</span>Home</span>
 				</h1>
@@ -68,7 +68,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="About">
+			<div class="About" id="About">
 				<h1>
 					<span class="pageHeader"><span class="section">-</span>About</span>
 				</h1>
@@ -87,6 +87,7 @@
 						<br>
 						<br>
 					</p>
+					<br>
 					<details class="aboutSite">
 						<summary>これまでの歴史(長いので省略表示)</summary>
 						<p>
@@ -135,9 +136,14 @@
 							2026年3月 - こうろぼに参加し、こうろぼ大賞(大会内最優秀競技要件達成賞)を受賞
 							<br>
 							<br>
-							2026年4月~ - 3年の18歳になり、高専ライフ満喫中。
+							2026年4月~ - 高専3年の18歳になり、高専ライフ満喫中。
 						</p>
+						<br>
+						<br>
+						<br>
 					</details>
+					<br>
+					<br>
 					<p class="aboutSite">
 						好きなこと - 回路設計、プログラミング、マイコン制御、映像制作、音楽鑑賞、マイクラ etc....
 						<br>
@@ -160,35 +166,36 @@
 						<br>
 					</p>
 				</div>
-				<div class="Contact">
-					<h1>
-						<span class="pageHeader"><span class="section">-</span>Contact</span>
-					</h1>
-					<div class="MainBody">
-						<h2>
-							<span class="siteTitle">連絡先/ソーシャル/活動場所</span>
-						</h2>
-						<span class="aboutSite">Contact to obsid/Social/Working place</span>
+			</div>
+			<div class="Contact" id="Contact">
+				<h1>
+					<span class="pageHeader"><span class="section">-</span>Contact</span>
+				</h1>
+				<div class="MainBody">
+					<h2>
+						<span class="siteTitle">連絡先/ソーシャル/活動場所</span>
+					</h2>
+					<span class="aboutSite">Contact to obsid/Social/Working place</span>
+					<br>
+					<p class="aboutSite">
+						Address - <code>**No data shared**</code>
 						<br>
-						<p class="aboutSite">
-							Address - <code>**No data shared**</code>
-							<br>
-							<br>
-							Discord server - <code>**No data shared**</code>
-							<br>
-							<br>
-							Instagram - <code>**No data shared**</code>
-							<br>
-							<br>
-							X(Twitter) - <code>**No data shared**</code>
-							<br>
-							<br>
-							<br>
-						</p>
-					</div>
+						<br>
+						Discord server - <code>**No data shared**</code>
+						<br>
+						<br>
+						Instagram - <code>**No data shared**</code>
+						<br>
+						<br>
+						X(Twitter) - <code>**No data shared**</code>
+						<br>
+						<br>
+						<br>
+					</p>
 				</div>
 			</div>
-			<div class="Blog">
+
+			<div class="Blog" id="Blog">
 				<h1>
 					<span class="pageHeader"><span class="section">-</span>Blog</span>
 				</h1>
@@ -204,7 +211,7 @@
 					</p>
 				</div>
 			</div>
-			<div class="Works">
+			<div class="Works" id="Works">
 				<h1>
 					<span class="pageHeader"><span class="section">-</span>Works</span>
 				</h1>
@@ -213,7 +220,7 @@
 						<span class="siteTitle">これまでの映像作品</span>
 					</h2>
 
-					<span class="aboutSite">Works made by obsid</span>
+					<span class="aboutSite">Movies.</span>
 					<br>
 					<p class="aboutSite">
 						comming soon ....
@@ -237,5 +244,6 @@
 				obsid
 			</p>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>

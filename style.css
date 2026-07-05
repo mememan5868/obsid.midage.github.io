@@ -135,6 +135,7 @@ div.picture span {
   font-family: 'Antro';
   position: relative;
   right: 13%;
+  bottom: auto;
   font-size: 100%;
 }
 

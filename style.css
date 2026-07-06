@@ -227,3 +227,13 @@ div.Works {
   display: block;
   transition: var(--transit_ms) var(--easing_type) var(--beizer);
 }
+
+a.contact {
+  text-decoration: none;
+  color: #aa00ff;
+  transition: 0.23s;
+}
+
+a.contact:hover {
+  color: #ffaa00; /* ホバー時に幅100%まで伸びる */
+}
